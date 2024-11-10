@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>动物保护协会管理系统</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- site icon -->
+      <link rel="shortcut icon" href="../static/images/favicon.png" th:href="@{/static/images/favicon.png}" type="image/x-icon"/>
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="../static/css/bootstrap.min.css" />
+      <!-- site css -->
+      <link rel="stylesheet" href="../static/style.css" />
+      <!-- responsive css -->
+      <link rel="stylesheet" href="../static/css/responsive.css" />
+      <!-- color css -->
+      <link rel="stylesheet" href="../static/css/colors.css" />
+      <!-- select bootstrap -->
+      <link rel="stylesheet" href="../static/css/bootstrap-select.css" />
+      <!-- scrollbar css -->
+      <link rel="stylesheet" href="../static/css/perfect-scrollbar.css" />
+      <!-- custom css -->
+      <link rel="stylesheet" href="../static/css/custom.css" />
+      <!-- calendar file css -->
+      <link rel="stylesheet" href="../static/js/semantic.min.css" />
+      <!-- fancy box js -->
+      <link rel="stylesheet" href="../static/css/jquery.fancybox.css" />
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body class="inner_page invoice_page">
+      <div class="full_container">
+         <div class="inner_container">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+               <div class="sidebar_blog_1">
+                  <div class="sidebar-header">
+                     <div class="logo_section">
+                        <a href="/index"><img class="logo_icon img-responsive" src="../static/images/logo/1.jpg" alt="#" /></a>
+                     </div>
+                  </div>
+                  <div class="sidebar_user_info">
+                     <div class="icon_setting"></div>
+                     <div class="user_profle_side">
+                        <div class="user_img"><img class="img-responsive" src="../static/images/logo/1.jpg" alt="#" /></div>
+                        <div class="user_info">
+                           <h6>动物保护协会</h6>
+                           <p><span class="online_animation"></span>一切正常</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sidebar_blog_2">
+                  <ul class="list-unstyled components">
+                     <li><a href="/showvolunteer"><i class="fa fa-dashboard yellow_color"></i> <span>志愿者一览</span></a></li>
+                     <li class="active">
+                        <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-dashboard yellow_color"></i> <span>志愿者管理</span></a>
+                        <ul class="collapse list-unstyled" id="dashboard">
+                           <li>
+                              <a href="/addvolunteer">> <span>志愿者增加</span></a>
+                           </li>
+                           <li>
+                              <a href="/deletevolunteer">> <span>志愿者删除</span></a>
+                           </li>
+                           <li>
+                              <a href="/updatevolunteer">> <span>志愿着修改</span></a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="/showanimal"><i class="fa fa-diamond purple_color"></i> <span>动物一览</span></a></li>
+                     <li>
+                        <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-diamond purple_color"></i> <span>动物管理</span></a>
+                        <!-- <a href="#element" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-clock-o orange_color"></i> <span>Elements</span></a> -->
+                        <ul class="collapse list-unstyled" id="element">
+                           <li><a href="/addanimal">> <span>动物增加</span></a></li>
+                           <li><a href="/deleteanimal">> <span>动物删除</span></a></li>
+                           <li><a href="/updateanimal">> <span>动物修改</span></a></li>
+                        </ul>
+                     </li>
+                     <li><a href="/showactivity"><i class="fa fa-bar-chart-o green_color"></i> <span>活动一览</span></a></li>
+                     <li>
+                        <a href="#apps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-bar-chart-o green_color"></i> <span>活动管理</span></a>
+                        <!-- <a href="#apps" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-object-group blue2_color"></i> <span>Apps</span></a> -->
+                        <ul class="collapse list-unstyled" id="apps">
+                           <li><a href="/addactivity">> <span>活动增加</span></a></li>
+                           <li><a href="/deleteactivity">> <span>活动删除</span></a></li>
+                           <li><a href="/updateactivity">> <span>活动修改</span></a></li>
+                        </ul>
+                     </li>
+                     <li><a href="/showarea"><i class="fa fa-map purple_color2"></i> <span>分区一览</span></a></li>
+                     <li><a href="/showadmin"><i class="fa fa-briefcase blue1_color"></i> <span>管理员一览</span></a></li>
+                     <li class="active">
+                        <a href="#additional_page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-paper-plane red_color"></i> <span>留言板管理</span></a>
+                        <!-- <a href="#additional_page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-clone yellow_color"></i> <span>Additional Pages</span></a> -->
+                        <ul class="collapse list-unstyled" id="additional_page">
+                           <li>
+                              <a href="/showmessage">> <span>留言板查看</span></a>
+                           </li>
+                           <li>
+                              <a href="/deletemessage">> <span>留言板删除</span></a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li><a href="/index"><i class="fa fa-cog yellow_color"></i> <span>返回首页</span></a></li>
+                  </ul>
+               </div>
+            </nav>
+            <!-- end sidebar -->
+            <!-- right content -->
+            <div id="content">
+               <!-- topbar -->
+               <div class="topbar">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                     <div class="full">
+                        <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
+                        <div class="logo_section">
+                           <a href="/index"><img class="img-responsive" src="../static/images/logo/logo.png" alt="#" /></a>
+                        </div>
+                       
+                     </div>
+                  </nav>
+               </div>
+               <!-- end topbar -->
+               <!-- dashboard inner -->
+               <div class="midde_cont">
+                  <div class="container-fluid">
+                     <div class="row column_title">
+                        <div class="col-md-12">
+                           <div class="page_title">
+                              <h2>我们一起行动 让动物们有更好的明天!</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- row -->
+                     <div class="row">
+                        <!-- invoice section -->
+                        <div class="col-md-12">
+                           <div class="white_shd full margin_bottom_30">
+                              <div class="full padding_infor_info">
+                                 <div class="table_row">
+                                    <div class="table-responsive">
+                                       <table class="table table-striped" >
+                                          <thead>
+                                             <tr>
+                                                <th>留言板内容</th>
+                                             </tr>
+                                          </thead>
+                                          <tbody>
+                                             <tr th:each="t:${seleAllmessage}">
+                                                <td th:text="${t.content}"></td>
+                                             </tr>
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- row -->
+                  </div>
+                  <!-- footer -->
+                  <div class="container-fluid">
+                     <div class="footer">
+                        <p>Copyright © 2024 动物保护协会. All rights reserved.</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- end dashboard inner -->
+            </div>
+         </div>
+         <!-- model popup -->
+         <!-- The Modal -->
+         <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                     <h4 class="modal-title">Modal Heading</h4>
+                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                     Modal body..
+                  </div>
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- end model popup -->
+      </div>
+      <!-- jQuery -->
+      <script src="../static/js/jquery.min.js"></script>
+      <script src="../static/js/popper.min.js"></script>
+      <script src="../static/js/bootstrap.min.js"></script>
+      <!-- wow animation -->
+      <script src="../static/js/animate.js"></script>
+      <!-- select country -->
+      <script src="../static/js/bootstrap-select.js"></script>
+      <!-- owl carousel -->
+      <script src="../static/js/owl.carousel.js"></script>
+      <!-- chart js -->
+      <script src="../static/js/Chart.min.js"></script>
+      <script src="../static/js/Chart.bundle.min.js"></script>
+      <script src="../static/js/utils.js"></script>
+      <script src="../static/js/analyser.js"></script>
+      <!-- nice scrollbar -->
+      <script src="../static/js/perfect-scrollbar.min.js"></script>
+      <script>
+         var ps = new PerfectScrollbar('#sidebar');
+      </script>
+      <!-- fancy box js -->
+      <script src="../static/js/jquery-3.3.1.min.js"></script>
+      <script src="../static/js/jquery.fancybox.min.js"></script>
+      <!-- custom js -->
+      <script src="../static/js/custom.js"></script>
+      <!-- calendar file css -->    
+      <script src="../static/js/semantic.min.js"></script>
+   </body>
+</html>

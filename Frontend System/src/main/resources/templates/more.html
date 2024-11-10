@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="shortcut icon" href="../static/images/favicon.png" th:href="@{/static/images/favicon.png}" type="image/x-icon"/>
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>动物保护协会</title>
+
+  <!-- font awesome style -->
+  <link href="../static/css/font-awesome.min.css" rel="stylesheet" />
+  <!-- lightbox -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="../static/css/bootstrap.css" />
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="../static/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="../static/css/responsive.css" rel="stylesheet" />
+</head>
+
+<style>
+  .div1 {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            max-width: 600px;
+            margin: 20px auto;
+            font-family: "Arial", sans-serif;
+            line-height: 1.6;
+        }
+  .div1 p {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .container1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 55vh;
+            padding: 160px;
+            box-sizing: border-box;
+        }
+
+        .image1 {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image1 img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .text1 {
+            flex: 1;
+            padding:50px;
+        }
+
+        .text1 h1 {
+            margin-top: 0;
+        }
+
+        .text1 p {
+            line-height: 1.6;
+        }
+
+
+        .message-table1 {
+            border-collapse: collapse;
+            width:280%;
+            margin-top: 1px;
+        }
+        .message-table1 th, .message-table1 td {
+            border: 1px solid #dee2e6;
+            padding: 20px 10px;
+            text-align: left;
+        }
+        .message-table1 th {
+            background-color: #007bff;
+            color: white;
+        }
+        .message-table1 tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .message-column1 {
+            width: 100%;
+        }
+
+</style>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="/index">
+            <img src="../static/images/logo.png" alt="" />
+            <span>
+              动物保护协会
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item active">
+                <a class="nav-link" href="/index"> 主页 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/animal"> 动物们 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/volunteer"> 志愿者 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/activity"> 活动 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/login"> 加入协会 </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pr-lg-0" href="/more"> 更多 </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  
+  <!--introduce section -->
+
+  <section class="contact_section layout_padding">
+    <div class="container ">
+      <div class="heading_container ">
+        <h2 class="">
+          协会简介
+          <hr>
+        </h2>
+      </div>
+      <br/>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="div1">
+            <p>
+              动物保护协会是一个校级动物保护组织。办公室位于办公楼xxx，已经和12所大学形成了合作关系。
+              协会长期致力于动物保护工作，活跃于各种周边社区的动物保护活动。
+            </p>
+            <p>
+              2005年，动物保护协会成立。
+              2009年，并入流浪动物保护部门。
+              2015年，协会被提升为校级组织。
+              至今已经经过了20年的风雨。
+            <p>
+              本协会以关爱动物、保护动物为宗旨，倡导人与动物和谐共生的理念，增进大学生对动物保护知识的了解，为动物保护事业贡献力量。
+            </p>
+            <p>
+              协会下辖行政部、宣传与活动部、外联部和救助部等部门。其中行政部负责协会的日常管理和组织协调工作；
+              宣传与活动部负责协会活动的宣传和推广，包括海报设计、社交媒体运营等，在此基础上，还负责策划和组织各类动物保护活动，如讲座、研讨会和实地考察等；
+              外联部负责与其他相关组织和机构的联络与合作，争取资源和支持。救助部负责对校内，附近社区及合作学校的动物进行医疗和生活救助。
+            </p>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container">
+              <img src="../static/images/index-1.jpg">
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!--end introduce section -->
+
+ <div class="gallery_section layout_padding2-top">
+  <div class="container-fluid">
+    <div class="heading_container heading_center">
+      <h2>
+        <hr>
+        未来愿景
+        <hr>
+      </h2>
+      <br/>
+      <br/>
+    </div>
+  </div>
+ </div>
+ <div class="container1">
+  <div class="image1">
+      <img src="../static/images/ani-1.jpg">
+  </div>
+  <div class="text1">
+      <p>
+        我们希望成为动物保护的先锋，通过我们的行动和倡导，带动更多的人参与到动物保护的行列中。
+        我们希望加强成员之间的联系，通过组织和参加各种活动，
+        展示志愿者的力量和影响力。共同推进动物保护事业。
+        我们承诺将始终以动物的福祉为首要任务，不懈努力实现我们的愿景。
+      </p>
+      <br/>
+      <br/>
+      <p>
+        在未来的道路上，我们承诺始终以动物的福祉为首要任务，不懈努力实现我们的愿景。
+        我们相信，在大家的共同努力下，人与动物将能够和谐共处，共同享受美丽的地球家园。
+      </p>
+  </div>
+</div>
+</div>
+<br/>
+<br/>
+
+<div class="gallery_section layout_padding2-top">
+  <div class="container-fluid">
+    <div class="heading_container heading_center">
+      <h2>
+        <hr>
+        留言板
+        <hr>
+      </h2>
+      <br/>
+      <br/>
+    </div>
+  </div>
+ </div>
+
+   <!-- contact section -->
+
+   <section class="contact_section layout_padding-bottom layout_padding2-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form th:action="@{addmessage}">
+            <div>
+              <input type="text" placeholder="留下你的感慨吧~~" name="content" class="message-box"/>
+            </div>
+            <br/>
+            <div class="btn-box">
+              <button>
+                发送
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container">
+              <form>
+                  <table class="message-table1">
+                      <tr th:each="t: ${selectcontont}">
+                        <td th:text="${t.content}"></td>
+                      </tr>
+                  </table>
+              </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+
+   <!-- info section -->
+   <section class="info_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info_logo">
+            <div>
+              <a href="">
+                <img src="../static/images/logo.png" alt="" />
+                <span>
+                  动物保护协会
+                </span>
+              </a>
+            </div>
+            <p>
+              本协会以关爱动物、保护动物为宗旨，倡导人与动物和谐共生的理念， 
+              增进大学生对动物保护知识的了解，为动物保护事业贡献力量。
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_links ">
+            <h5>
+              联系我们
+            </h5>
+            <div class="info_contact">
+              <div class="contact_link_box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                    Location
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    Call +86 1234567890
+                  </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span>
+                    demo@gmail.com
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_insta">
+            <h5>
+              关注我们
+            </h5>
+            <div class="info_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+            </div>
+            <br/>
+            <p>
+              请多多宣传我们,谢谢！
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="pl-0 pl-lg-5 pl-md-4">
+            <h5>
+             鸣谢
+            </h5>
+            <p>
+              感谢学校的支持和所有老师同学的支持！
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="/index">动物保护协会</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="../static/js/jquery-3.4.1.min.js"></script>
+  <script src="../static/js/bootstrap.js"></script>
+  <!-- lightbox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js  "></script>
+  <!-- custom js -->
+  <script src="../static/js/custom.js"></script>
+
+</body>
+
+</html>
