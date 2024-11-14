@@ -16,8 +16,8 @@ _The back-end system uses the open-source project __Pluto - Bootstrap Admin Dash
 Java 11<br>
 MySQL 8.0.28<br>
 ## 4.开发人员（Developers）
-狸猫科技<br>
-_Lihuacat Technology_ 
+狸猫C型AI （CatC AI）<br>
+_Lihuacat C-Type AI （CatC AI）_ 
 ## 5.项目展示（Project Display）
 ### （1）前台系统 （Front-end System）
 首页<br>
