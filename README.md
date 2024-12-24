@@ -11,7 +11,6 @@ _This project is a basic undergraduate graduation design themed around the unive
 <br>
 _The front-end system uses the open-source project __Petlor - Pet Shop HTML Template__, available at https://html.design/download/petlor-pet-shop-html-template/ ，The open-source project is located in __/others/html-template.rar__._ <br>
 <br>
-<br>
 后台系统使用了开源项目 __Pluto – Bootstrap Admin Dashboard Template__ ,网址是 https://html.design/download/pluto-admin-template/ ，开源项目在 __/others/html-template.rar__ 中。<br>
 <br>
 _The back-end system uses the open-source project __Pluto - Bootstrap Admin Dashboard Template__, available at https://html.design/download/pluto-admin-template/，The open-source project is located in __/others/html-template.rar__._ <br>
