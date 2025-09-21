@@ -34,16 +34,17 @@
 ### （1）前台系统
 <br>
 <h3 align="center">首页</h3>
+<br>
 <img src="/show1.png"/><br>
 <br>
 <br>
-
-<p align="center"><h3>志愿者页</h3></p>
+<h3 align="center">志愿者页</h3>
+<br>
 <img src="/show2.png"/><br>
 <br>
 <br>
-
-**加入我们页**
+<h3 align="center">加入我们页</h3>
+<br>
 <img src="/show3.png"/><br>
 <br>
 <br>
