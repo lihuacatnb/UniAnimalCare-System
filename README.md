@@ -51,18 +51,15 @@
 
 ### （2）后台系统
 <br>
-
-管理员登录页
+<h3 align="center">管理员登录页</h3>
 <img src="/show4.png"/><br>
 <br>
 <br>
-
-首页
+<h3 align="center">首页</h3>
 <img src="/show5.png"/><br>
 <br>
 <br>
-
-动物一览页
+<h3 align="center">动物一览页</h3>
 <img src="/show6.png"/><br>
 <br>
 <br>
