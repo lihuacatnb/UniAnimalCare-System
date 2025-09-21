@@ -33,7 +33,7 @@
 ## 5.项目展示
 ### （1）前台系统
 <br>
-<p align="center"><h3>首页</h3></p>
+<p align="center">首页</p>
 <img src="/show1.png"/><br>
 <br>
 <br>
