@@ -10,7 +10,6 @@
 本项目以大学动物保护协会为主题，属于一个基础本科毕业设计。系统分为 **前台展示** 和 **后台管理** 两部分：
 - **前台系统**：用于协会宣传、志愿者展示及新成员招募 
 - **后台系统**：负责动物信息、志愿者与日常管理工作
-<br>
 系统开发采用了 Bootstrap 和 Spring Boot 框架，数据存储使用 MySQL 数据库。
 
 ## 2.项目基础
@@ -34,32 +33,38 @@
 ## 5.项目展示
 ### （1）前台系统
 - 首页
+<br>
 <img src="/show1.png"/><br>
 <br>
 <br>
 
 - 志愿者页
+<br>
 <img src="/show2.png"/><br>
 <br>
 <br>
 
 - 加入我们页
+  <br>
 <img src="/others/show6.png"/><br>
 <br>
 <br>
 
 ### （2）后台系统
 - 管理员登录页
+<br>
 <img src="/show4.png"/><br>
 <br>
 <br>
 
 - 首页
+<br>
 <img src="/show5.png"/><br>
 <br>
 <br>
 
 - 动物一览页
+<br>
 <img src="/show6.png"/><br>
 <br>
 <br>
