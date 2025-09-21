@@ -33,13 +33,12 @@
 ## 5.项目展示
 ### （1）前台系统
 <br>
-
-**首页**
+<p align="center"><h3>首页</h3></p>
 <img src="/show1.png"/><br>
 <br>
 <br>
 
-**志愿者页**
+<p align="center"><h3>志愿者页</h3></p>
 <img src="/show2.png"/><br>
 <br>
 <br>
