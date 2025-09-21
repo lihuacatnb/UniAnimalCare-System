@@ -11,7 +11,7 @@ This project is a basic undergraduate graduation design, themed around the **Uni
 
 - **Frontend system**: Showcasing the association, volunteer activities, and new member recruitment.  
 - **Backend system**: Managing animal information, volunteers, and daily administrative tasks.  
-系统开发采用了 Bootstrap 和 Spring Boot 框架，数据存储使用 MySQL 数据库。
+The system is developed using the Bootstrap and Spring Boot frameworks, with data stored in a MySQL database.
 
 ## 2. Project Basics
 - **Frontend System** is based on the open-source template **Petlor – Pet Shop HTML Template**  
