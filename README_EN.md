@@ -10,7 +10,8 @@
 This project is a basic undergraduate graduation design, themed around the **University Animal Protection Association**. The system consists of two main parts:  
 
 - **Frontend system**: Showcasing the association, volunteer activities, and new member recruitment.  
-- **Backend system**: Managing animal information, volunteers, and daily administrative tasks.<br>  
+- **Backend system**: Managing animal information, volunteers, and daily administrative tasks.<br>
+
 The system is developed using the Bootstrap and Spring Boot frameworks, with data stored in a MySQL database.
 
 ## 2. Project Basics
