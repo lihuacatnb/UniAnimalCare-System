@@ -32,39 +32,35 @@
 
 ## 5.项目展示
 ### （1）前台系统
-- 首页
 <br>
+- 首页
 <img src="/show1.png"/><br>
 <br>
 <br>
 
 - 志愿者页
-<br>
 <img src="/show2.png"/><br>
 <br>
 <br>
 
 - 加入我们页
-  <br>
-<img src="/others/show6.png"/><br>
+<img src="/show3.png"/><br>
 <br>
 <br>
 
 ### （2）后台系统
-- 管理员登录页
 <br>
+- 管理员登录页
 <img src="/show4.png"/><br>
 <br>
 <br>
 
 - 首页
-<br>
 <img src="/show5.png"/><br>
 <br>
 <br>
 
 - 动物一览页
-<br>
 <img src="/show6.png"/><br>
 <br>
 <br>
