@@ -34,17 +34,17 @@
 ### （1）前台系统
 <br>
 
-- 首页
+首页
 <img src="/show1.png"/><br>
 <br>
 <br>
 
-- 志愿者页
+志愿者页
 <img src="/show2.png"/><br>
 <br>
 <br>
 
-- 加入我们页
+加入我们页
 <img src="/show3.png"/><br>
 <br>
 <br>
@@ -52,17 +52,17 @@
 ### （2）后台系统
 <br>
 
-- 管理员登录页
+管理员登录页
 <img src="/show4.png"/><br>
 <br>
 <br>
 
-- 首页
+首页
 <img src="/show5.png"/><br>
 <br>
 <br>
 
-- 动物一览页
+动物一览页
 <img src="/show6.png"/><br>
 <br>
 <br>
